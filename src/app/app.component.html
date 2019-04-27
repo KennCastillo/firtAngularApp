@@ -1,0 +1,74 @@
+<div class="container app">
+
+  <ul class="list-group">
+    <li class="list-group-item">
+      <a class="badge badge-light" routerLink="/">Home</a>
+    </li>
+    <li class="list-group-item">
+        <a class="badge badge-light" routerLink="/about">About</a>
+    </li>
+    <li class="list-group-item">
+        <a class="badge badge-light" routerLink="/main">Main</a>
+    </li>
+  </ul>
+
+</div>
+
+<router-outlet></router-outlet>
+<!-- <div class="container app">
+
+  <div class="row">
+    <div class="col-sm-8">
+      <form (submit)="addUser(newUser)">
+        <div class="form-inline">
+          <div class="form-group mb-2" >
+            <input type="text" class="form-control" #newUser>
+          </div>
+          <div class="form-group mb-2 ml-2">
+            <button class="btn btn-primary">
+              Send User
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div>
+      <ul class="list-group">
+          <li class="list-group-item" *ngFor="let user of users">
+            <div class="row">
+              <div class="form-group mt-1 ml-2">
+                <label for="ejemplo"> {{user}}</label>
+              </div>
+               <div class="form-group mb-2 ml-2">
+                <button class="btn btn-primary" (click)="deleteUser(user)">X</button>
+              </div> 
+            </div>                        
+          </li>
+        </ul>
+  </div>
+
+  <div class="row">
+      <div class="col-sm-6">
+        <form>
+          <div class="form-group mt-3" >
+            <input type="text" class="form-control" name="name" [(ngModel)]="name">                          
+          </div>
+          <div class="form-group"s>
+            <input type="text" class="form-control" name="age" [(ngModel)]="age">
+          </div>
+        </form>
+    </div>
+    name: {{ name }}
+    age: {{age}}
+  </div>
+
+  <hr>
+
+  <div *ngFor="let post of posts">
+    <h3>{{post.title}}</h3>
+    <p>{{post.body}}</p>
+  </div>
+
+</div> -->

@@ -1,0 +1,11 @@
+.hello-world{
+    background: white;
+    color: black;
+}
+
+.app{
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 30px;
+    background: #fff;
+}
